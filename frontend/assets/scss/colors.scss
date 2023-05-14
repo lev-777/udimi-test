@@ -1,0 +1,19 @@
+@import 'variables';
+
+.c {
+  &-white {
+    color: $white;
+  }
+
+  &-red {
+    color: $red;
+  }
+
+  &-dark-red {
+    color: $dark-red;
+  }
+
+  &-green {
+    color: $green;
+  }
+}

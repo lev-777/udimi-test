@@ -1,0 +1,72 @@
+@import 'variables';
+@import 'colors';
+
+.flex {
+  display: flex;
+
+  &-center {
+    justify-content: center;
+  }
+
+  &-fill {
+    justify-content: space-between;
+  }
+
+  &-end {
+    justify-content: end;
+  }
+}
+
+.bg {
+  &-white {
+    background: $white;
+  }
+
+  &-dark-red {
+    background: $dark-red;
+  }
+
+  &-grey {
+    background: $grey;
+  }
+}
+
+.m {
+  &-auto {
+    margin: auto;
+  }
+
+  &l-10 {
+    margin-left: 10px;
+  }
+
+  &l-20 {
+    margin-left: 20px;
+  }
+
+  &b-20 {
+    margin-bottom: 20px;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.w {
+  &-full {
+    width: 100%;
+  }
+
+  &-150 {
+    width: 150px;
+  }
+}

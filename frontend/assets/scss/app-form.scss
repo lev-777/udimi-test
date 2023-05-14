@@ -1,0 +1,35 @@
+@import 'variables';
+
+.app-form-input {
+  input {
+    width: 100%;
+    border: 1px solid $light;
+    border-radius: 5px;
+    padding: 15px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+
+  &.has-error {
+    input {
+      border: 1px solid $red;
+    }
+  }
+}
+
+.error-container {
+  margin: 5px 0;
+  color: $red;
+}
+
+.app-form-button {
+  height: 52px;
+  text-transform: none;
+  text-shadow: none;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}
